@@ -18,7 +18,7 @@ The primary objective of this project is to:
 1. **Build a robust Machine Learning prediction model** to accurately identify customers at risk of churning
 2. **Implement techniques to handle imbalanced datasets** effectively
 3. **Evaluate model performance** using appropriate metrics for imbalanced classification
-4. **Provide actionable insights** through confusion matrix and ROC curve analysis
+4. **Provide performance insights** through confusion matrix and ROC curve analysis
 5. **Enable data-driven business decisions** for customer retention strategies
 
 ---
