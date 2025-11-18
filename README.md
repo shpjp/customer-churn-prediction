@@ -108,6 +108,7 @@ Analyze TP, TN, FP, FN.
 
 ### Source
 - **File**: `customer_churn_data_imbalanced.csv`
+- From Kaggle
 
 
 
