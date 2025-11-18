@@ -1,7 +1,7 @@
 # Customer Churn Prediction - Machine Learning Use Case
 
 ---
-## Live Demo : (streamlit) and powerBi(virtualization)
+## Live Demo : (streamlit) 
 
 ## Overview
 
