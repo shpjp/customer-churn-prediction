@@ -1,8 +1,11 @@
 # Customer Churn Prediction - Machine Learning Use Case
 
+Ecommerce Dataset -
+Source : Kaggle 
+Size: 555.61 kB
+Rows: 5630
+Columns: 20
 ---
-## Live Demo : (streamlit) 
-
 ## Overview
 
 Customer Churn Prediction is a critical machine learning use case that helps businesses identify customers who are likely to discontinue their services. By predicting churn proactively, companies can implement targeted retention strategies, reduce revenue loss, and improve customer lifetime value.
@@ -104,33 +107,26 @@ Analyze TP, TN, FP, FN.
 
 ---
 
-## Dataset Description
-
-### Source
-- **File**: `customer_churn_data_imbalanced.csv`
-- From Kaggle
-
-
 
 ### Target Variable Distribution
-- **No Churn**: ~70% (Class Imbalance!)
-- **Churn**: ~30%
+- **No Churn**: 83.16 (Class Imbalance!)
+- **Churn**: 16.84
 
 ---
 
 ## Methodology
 
-### 1. Data Preprocessing
-- Handle missing values
-- Remove duplicates
-- Convert data types (especially `TotalCharges`)
-- Drop irrelevant features (`customerID`)
-
-### 2. Exploratory Data Analysis (EDA)
+### 1. Exploratory Data Analysis (EDA)
 - Analyze target variable distribution
 - Visualize numerical features
 - Examine categorical features
 - Correlation analysis
+
+### 2. Data Preprocessing
+- Handle missing values
+- Remove duplicates
+- Convert data types
+- Drop irrelevant features 
 
 ### 3. Feature Engineering
 - **Binary Encoding**: Convert Yes/No to 1/0
@@ -141,30 +137,5 @@ Analyze TP, TN, FP, FN.
 - **Split Ratio**: 80% training, 20% testing
 
 ### 5. Model Training
-We will Train and compare multiple algorithms:
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- Gradient Boosting
-- XGBoost
-- Support Vector Machine (SVM)
-- Naive Bayes
-
----
-
-### Feature Engineering
-- [ ] Interaction features (e.g., tenure × contract type)
-- [ ] Temporal features (seasonality, trends)
-- [ ] Customer behavior patterns
-- [ ] Text mining from customer feedback
-
-
-### 5. Advanced Analytics
-- [ ] Customer segmentation
-- [ ] Survival analysis
-- [ ] Cohort analysis
-- [ ] Churn reason classification
-- [ ] Customer lifetime value prediction
-
----
+- Used xgboost
 
