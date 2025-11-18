@@ -1,6 +1,6 @@
-# Customer Churn Prediction - Machine Learning Use Case
+# Customer Churn Prediction 
 
-Ecommerce Dataset -
+Ecommerce Dataset :-
 Source : Kaggle 
 Size: 555.61 kB
 Rows: 5630
@@ -45,37 +45,13 @@ The primary objective of this project is to:
 ---
 
 ## Workflow 
-1. Data Collection
-Gather raw data from available sources.
-2. Handle Missing Values
-Identify and impute/remove missing data.
-3. Remove Duplicates
-Detect and eliminate duplicate records.
-4. Data Type Conversion
-Convert incorrect data types to appropriate formats.
-5. Distribution Analysis
-Study distribution of each feature (histograms, KDE plots, etc.).
-6. Correlation Analysis
-Check relationships between features and target.
-7. Data Visualization
-Create plots for better understanding (bar charts, heatmaps, etc.).
-8. Encode Categorical Variables
-Convert non-numeric features using label encoding or one-hot encoding.
-9. Feature Scaling
-Normalize or standardize numerical columns.
-10. Feature Selection
-Identify and retain only the most important features.
-11. Handle Imbalanced Data Using SMOTE
-Oversample the minority class using SMOTE.
-12. Random Under-sampling
-Reduce majority class instances if needed.
-13. Apply Class Weights
-Give higher weight to minority class during model training.
-14. Train Logistic Regression Model,Decision Tree Model, Random Forest Model, Gradient Boosting Model, XGBoost Model
-15. Confusion Matrix Evaluation
-Analyze TP, TN, FP, FN.
-16. ROC Curve Evaluation + Precision, Recall, F1 + ROC-AUC Score
-17. Model Deployment
+1. Data Collection 
+2. EDA : Exploratory Data Analysis
+3. Data Preprocessing
+4. Train-Test Split
+5. Model Training
+6. Model Evaluation
+7. Deployment
 
 ---
 
@@ -129,7 +105,6 @@ Analyze TP, TN, FP, FN.
 - Drop irrelevant features 
 
 ### 3. Feature Engineering
-- **Binary Encoding**: Convert Yes/No to 1/0
 - **One-Hot Encoding**: Transform multi-category features
 - **Feature Scaling**: StandardScaler for normalization
 
@@ -139,3 +114,10 @@ Analyze TP, TN, FP, FN.
 ### 5. Model Training
 - Used xgboost
 
+### 6. Evaluation
+- **Accuracy** : 0.97
+- **Decision** -0.915
+- **Precision** : 0.9158
+- **Recall** : 0.9158
+- **F1-score** : 0.9158
+- **ROC** : 0.9904
